@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+}
+
+.container1 {
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  width: 340px;
+  border-radius: 52px 52px 52px 52px;
+  height: 650px;
+  box-shadow: 4px 14px 56px 4px rgb(0 0 0 / 12%);
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.container2 {
+  width: 340px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 65px 0 50px 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+input,
+button {
+  width: 280px;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  border: none;
+}
+
+button {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border-radius: 12px 0 12px 12px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+button:active {
+  background-color: #0a0a0aef;
+}
+
+input {
+  box-shadow: -4px 1px 20px rgb(154 154 154 / 45%);
+  border-radius: 10px 0px 10px 10px;
+  text-indent: 110px;
+}
+
+a {
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.informations {
+  position: relative;
+}
+
+.positionSpan {
+  position: absolute;
+  top: 14px;
+  left: 7px;
+  font-weight: 700;
+}
+
+.container_informations {
+  width: 340px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 65px 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container_cadastro {
+  background-color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  width: 340px;
+  border-radius: 52px 52px 52px 52px;
+  height: 650px;
+  box-shadow: 4px 14px 56px 4px rgb(0 0 0 / 12%);
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.logo {
+  background-color: #ffffff;
+  width: 75px;
+  height: 75px;
+  border-radius: 15px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_inside {
+  background-color: #181818;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cadastro {
+  color: #ffffff;
+  font-size: 32px;
+}
